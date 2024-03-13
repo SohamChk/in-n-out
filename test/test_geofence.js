@@ -14,6 +14,7 @@ var randomPolygon = function(range, percentageOfRange) {
     return polygon;
 };
 
+// callback function
 describe('Geofence.inside()', function() {
     it('should always equal utils.pointInPolygon', function() {
         var polygon = randomPolygon(2000, 0.1);
